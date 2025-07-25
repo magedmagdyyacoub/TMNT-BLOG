@@ -1,0 +1,53 @@
+.episodes-section {
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #0d101a, #141a28);
+  color: #00ffe1;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.episodes-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 15px #00ffe1;
+}
+
+.episodes-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.episode-card {
+  background: #1a1f2f;
+  border-radius: 12px;
+  padding: 1rem;
+  width: 320px;
+  box-shadow: 0 0 15px #00ffe180;
+  transition: transform 0.3s;
+}
+
+.episode-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px #00ffe1, 0 0 12px #00ffe140 inset;
+}
+
+.episode-card iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.episode-card h3 {
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.episode-card p {
+  font-size: 0.9rem;
+  color: #b0ffff;
+}

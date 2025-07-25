@@ -1,0 +1,20 @@
+.site-footer {
+  background: linear-gradient(135deg, #0e1423, #151d2f);
+  color: #00ffe1;
+  padding: 1.5rem 0;
+  text-align: center;
+  box-shadow: 0 -2px 10px #00ffe140;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.footer-content p {
+  margin: 0.3rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
+
+.dev-name {
+  color: #ff2bf2;
+  font-weight: bold;
+  text-shadow: 0 0 5px #ff2bf280;
+}
