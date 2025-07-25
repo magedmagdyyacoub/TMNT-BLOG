@@ -46,4 +46,4 @@ A foundation for larger e-commerce or social platforms
 📬 Contact
 Want to collaborate, hire, or provide feedback?
 
-📧 Email: maged.magdy.yacoub@gmail.com 🔗 LinkedIn: linkedin.com/in/magedmagdyyacoub
+📧 Email: magedmagdyyacoub3@gmail.com 🔗 LinkedIn: www.linkedin.com/in/maged-magdy-7188402a2
