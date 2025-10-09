@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "tmnt-blog",
   "version": "1.0.0",
   "description": "Full stack TMNT blog built with Node.js, Express, and PostgreSQL",
@@ -8,9 +7,6 @@
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
-=======
-<<<<<<< HEAD
->>>>>>> f840e590c331056779c541ed20da12d35ae22801
   "dependencies": {
     "@emoji-mart/data": "^1.2.1",
     "@emoji-mart/react": "^1.1.1",
@@ -24,43 +20,5 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
-<<<<<<< HEAD
-=======
-=======
-  "name": "tmnt-blog",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "@emoji-mart/data": "^1.2.1",
-    "@emoji-mart/react": "^1.1.1",
-    "axios": "^1.10.0",
-    "emoji-mart": "^5.6.0",
-    "framer-motion": "^12.19.2",
-    "howler": "^2.2.4",
-    "jwt-decode": "^4.0.0",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "react-router-dom": "^7.6.2",
-    "styled-components": "^6.1.19"
-  },
-  "devDependencies": {
-    "@eslint/js": "^9.29.0",
-    "@types/react": "^19.1.8",
-    "@types/react-dom": "^19.1.6",
-    "@vitejs/plugin-react": "^4.5.2",
-    "eslint": "^9.29.0",
-    "eslint-plugin-react-hooks": "^5.2.0",
-    "eslint-plugin-react-refresh": "^0.4.20",
-    "globals": "^16.2.0",
-    "vite": "^7.0.0"
->>>>>>> 8eaba6a6936ec733d5ea0435d853d527a5a4f1da
->>>>>>> f840e590c331056779c541ed20da12d35ae22801
   }
 }
