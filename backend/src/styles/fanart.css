@@ -1,0 +1,32 @@
+.fan-art-wall {
+  margin-top: 3rem;
+  text-align: center;
+  color: #00ffcc;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.upload-input {
+  margin: 1rem 0;
+  background: #222;
+  padding: 0.5rem;
+  border: 2px dashed #00ffcc;
+  color: #fff;
+}
+
+.art-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+
+.art-thumbnail {
+  width: 120px; /* أو استخدم 100px لو عايز أصغر */
+  height: 120px;
+  object-fit: cover;
+  border: 2px solid #00ffcc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00ffcc;
+  transition: transform 0.3s;
+}
