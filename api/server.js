@@ -2,6 +2,8 @@ require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
+const serverless = require('serverless-http'); // ⬅️ أضف دي
+
 const app = express();
 
 const authRoutes = require('./routes/authRoutes');
@@ -29,4 +31,6 @@ app.get('/', (req, res) => {
   res.send('TMNT Blog backend is running 🚀');
 });
 
-module.exports = app; // ✅ لا تستخدم app.listen في Vercel
+// ✅ لا تكتب app.listen()
+module.exports = app;
+module.exports.handler = serverless(app); // ⬅️ أضف دي
